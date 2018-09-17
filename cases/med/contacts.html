@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Контакты</title>
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Libs styles -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+    crossorigin="anonymous">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="main-header">
+
+    <div class="main-header__top container d-flex justify-content-between align-items-md-end align-items-center">
+      <a href="#" class="main-header__top__logo"><img src="img/logo.png" alt="Медицинский центр «Алан Клиник»" class="img-responsive"></a>
+
+      <div class="d-md-flex flex-column align-items-center d-none">
+        <a href="#" class="main-header__top__phone">8 (843) 204 1 540</a>
+        <div class="dropdown dropdown-arrow">
+          <button class="dropdown__btn">Выберите клинику</button>
+          <div class="dropdown__items">
+            <a href="#">Казань</a>
+            <a href="#">Ижевск</a>
+            <a href="#">Чебоксары</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-header__top__burger d-md-none">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+    </div>
+
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <nav class="main-nav d-none d-md-block" id="mobile-menu-parent">
+        <ul>
+          <li class="active"><a href="#">Проктология</a></li>
+          <li><a href="#">Урология</a></li>
+          <li><a href="#">Гинекология</a></li>
+          <li><a href="#">Неврология</a></li>
+          <li><a href="#">Ортопедия</a></li>
+          <li><a href="#">Детская неврология</a></li>
+        </ul>
+      </nav>
+
+      <form action="#" class="main-nav__search d-none d-xl-block">
+        <input type="search" class="main-nav__search__input">
+        <button class="main-nav__search__btn">Поиск</button>
+      </form>
+
+    </div>
+
+  </header>
+
+  <section class="main-contacts">
+
+    <div class="container">
+
+      <ul class="breadcrumbs">
+        <li><a href="#">Главная</a></li>
+        <li class="active"><a href="#">Контакты</a></li>
+      </ul>
+
+      <div class="section-title">
+        <h1>Контакты</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 main-contacts__desc">
+          По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при
+          попытках прочитать рыбу
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="addresses">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-4">
+          <a href="#" class="addresses__title">Казань</a>
+          <p>420107, г. Казань, ул. Островского, д. 57А<br> +7 (843) 204 1 540<br> +7 (843) 204 1 800</p>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="addresses__title">Ижевск</a>
+          <p>426011, г. Ижевск, ул. Советская, д. 13<br> +7 (3412) 79 70 70</p>
+        </div>
+        <div class="col-md-4">
+          <a href="#" class="addresses__title">Чебоксары</a>
+          <p>428006, г. Чебоксары, ул. Ислюкова, д. 16А<br> +7 (8352) 556 555</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts-form">
+    <div class="container">
+
+      <form action="#">
+
+        <div class="row">
+          <div class="col-md-4 contacts-form__input-with-icon">
+            <input type="text" placeholder="Имя*" required class="input"><i class="far fa-user"></i>
+          </div>
+          <div class="col-md-4 contacts-form__input-with-icon">
+            <input type="text" placeholder="Телефон*" required class="input"><i class="fas fa-phone"></i>
+          </div>
+          <div class="col-md-4 contacts-form__input-with-icon">
+            <input type="text" placeholder="E-mail*" required class="input"><i class="far fa-envelope"></i>
+          </div>
+          <div class="col-12">
+            <textarea cols="30" rows="10" placeholder="Сообщение" class="textarea"></textarea>
+            <button class="send-btn">Отправить</button>
+          </div>
+
+        </div>
+
+      </form>
+
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6">
+          <img src="img/logo.png" alt="Медицинский центр «Алан Клиник»" class="main-footer__logo img-responsive">
+          <div class="main-footer__copy">Copyright © Сеть медицинских центров «Алан Клиник» 2009-2018<br>Все права защищены.</div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <ul class="main-footer__nav">
+            <li>О здоровье</li>
+            <li><a href="#">Вопросы и Ответы</a></li>
+            <li><a href="#">Симптомы</a></li>
+            <li><a href="#">Заболевания</a></li>
+            <li><a href="#">Направления медицины</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <ul class="main-footer__nav">
+            <li>Об «Алан Клиник»</li>
+            <li><a href="#">Лицензии</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <ul class="main-footer__nav">
+            <li>Обратиться к нам</li>
+            <li><a href="#">Записаться на приём</a></li>
+            <li><a href="#">Задать вопрос</a></li>
+          </ul>
+          <div class="dropdown dropdown-arrow main-footer__dropdown">
+            <button class="dropdown__btn">Выбрать клинику</button>
+            <div class="dropdown__items">
+              <a href="#" class="active">Казань</a>
+              <a href="#">Ижевск</a>
+              <a href="#">Чебоксары</a>
+            </div>
+          </div>
+          <div class="dropdown main-footer__dropdown">
+            <button class="dropdown__btn">Поделиться страницей</button>
+            <div class="dropdown__items share">
+              <a href="#" class="facebook-bg"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="vk-bg"><i class="fab fa-vk"></i></a>
+              <a href="#" class="insta-bg"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="twitter-bg"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="google-plus-bg"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#" class="odnoklassniki-bg"><i class="fab fa-odnoklassniki"></i></a>
+            </div>
+          </div>
+          <div class="main-footer__social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-vk"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-odnoklassniki"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="main-footer__desc">
+        Внимание! Информация, размещённая на данном сайте, ни в коем случае не должна использоваться читателями для самостоятельной
+        постановки диагноза или самолечения! Информация на сайте размещена исключительно в целях исполнения обязанностей,
+        предусмотренных Федеральным законом «О защите прав потребителя» и не является рекламой. Правовая информация. Любое
+        использование (копирование) информации с данного сайта возможно только с разрешения правообладателя, полученного
+        в письменном виде.
+      </div>
+
+    </div>
+  </footer>
+
+  <div class="footer-warning">
+    <div class="container">
+      Имеются противопоказания, необходима консультация специалиста
+    </div>
+  </div>
+
+  <!-- <script src="libs/jquery/dist/jquery.min.js"></script>
+  <script src="libs/slick-1.8.1/slick/slick.min.js"></script>
+  <script src="js/common.js"></script> -->
+
+  <script src="js/all.js"></script>
+
+</body>
+
+</html>

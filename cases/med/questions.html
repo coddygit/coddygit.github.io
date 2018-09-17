@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Вопросы - Ответ</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Libs styles -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+
+        <div class="main-header__top container d-flex justify-content-between align-items-md-end align-items-center">
+            <a href="#" class="main-header__top__logo"><img src="img/logo.png" alt="Медицинский центр «Алан Клиник»" class="img-responsive"></a>
+
+            <div class="d-md-flex flex-column align-items-center d-none">
+                <a href="#" class="main-header__top__phone">8 (843) 204 1 540</a>
+                <div class="dropdown dropdown-arrow">
+                    <button class="dropdown__btn">Выберите клинику</button>
+                    <div class="dropdown__items">
+                        <a href="#">Казань</a>
+                        <a href="#">Ижевск</a>
+                        <a href="#">Чебоксары</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-header__top__burger d-md-none">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+        </div>
+
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <nav class="main-nav d-none d-md-block" id="mobile-menu-parent">
+                <ul>
+                    <li class="active"><a href="#">Проктология</a></li>
+                    <li><a href="#">Урология</a></li>
+                    <li><a href="#">Гинекология</a></li>
+                    <li><a href="#">Неврология</a></li>
+                    <li><a href="#">Ортопедия</a></li>
+                    <li><a href="#">Детская неврология</a></li>
+                </ul>
+            </nav>
+
+            <form action="#" class="main-nav__search d-none d-xl-block">
+                <input type="search" class="main-nav__search__input">
+                <button class="main-nav__search__btn">Поиск</button>
+            </form>
+
+        </div>
+
+    </header>
+
+    <div class="workarea-with-sidebar">
+        <div class="container content-page faq-list">
+            <div class="row">
+
+                <div class="col-lg-9" id="content">
+
+                    <section>
+
+                        <ul class="breadcrumbs">
+                            <li><a href="#">Главная</a></li>
+                            <li class="active"><a href="#">Вопросы и ответы</a></li>
+                        </ul>
+
+                        <div class="section-title">
+                            <h1>Вопросы и ответы</h1>
+                        </div>
+
+                        <h2>Задать вопрос специалисту</h2>
+
+                        <form action="#" class="question-form">
+                            <textarea cols="30" rows="5" class="textarea" placeholder="Введите текст вопроса..."></textarea>
+                            <div class="dropdown dropdown-arrow">
+                                <div class="dropdown__btn">Выберите специалиста</div>
+                                <div class="dropdown__items">
+                                    <a href="#">Проктолог</a>
+                                    <a href="#">Уролог</a>
+                                    <a href="#">Гинеколог</a>
+                                    <a href="#">Невролог</a>
+                                    <a href="#">Ортопед</a>
+                                    <a href="#">Детский невролог</a>
+                                </div>
+                            </div>
+                            <button class="send-btn question">Отправить</button>
+                        </form>
+
+                    </section>
+
+                    <section class="popular-questions">
+
+                        <h2>Популярные вопросы</h2>
+
+                        <div class="popular-questions__item">
+                            <a href="#" class="popular-questions__item__text">
+                                Добрый день! На медосмотре гинеколог сказала, что у меня геморрой, хотя меня ничего не беспокоит, только иногда бывает кровь
+                                после туалета, совсем немного. Скажите, пожалуйста, может ли такой геморрой пройти сам по
+                                себе?
+                            </a>
+                            <div class="popular-questions__item__date">10.01.2014</div>
+                            <div class="popular-questions__item__tags">
+                                <a href="#">проктолог</a>
+                                <a href="#">геморрой</a>
+                                <a href="#">кровь после туалера</a>
+                            </div>
+                            <div class="popular-questions__item__secs d-flex flex-column align-items-start">
+                                Разделы:
+                                <ul class="popular-questions__item__secs__item breadcrumbs">
+                                    <li><a href="#">Проктология</a></li>
+                                    <li><a href="#">Геморрой</a></li>
+                                </ul>
+                                <a href="#" class="popular-questions__item__secs__item">Ортопедия</a>
+                                <a href="#" class="popular-questions__item__secs__item">Детская неврология</a>
+                            </div>
+                        </div>
+
+                        <div class="popular-questions__item">
+                            <a href="#" class="popular-questions__item__text">
+                                Добрый день! На медосмотре гинеколог сказала, что у меня геморрой, хотя меня ничего не беспокоит, только иногда бывает кровь
+                                после туалета, совсем немного. Скажите, пожалуйста, может ли такой геморрой пройти сам по
+                                себе?
+                            </a>
+                            <div class="popular-questions__item__date">10.01.2014</div>
+                            <div class="popular-questions__item__tags">
+                                <a href="#">проктолог</a>
+                                <a href="#">геморрой</a>
+                                <a href="#">кровь после туалера</a>
+                            </div>
+                            <div class="popular-questions__item__secs d-flex flex-column align-items-start">
+                                Разделы:
+                                <ul class="popular-questions__item__secs__item breadcrumbs">
+                                    <li><a href="#">Проктология</a></li>
+                                    <li><a href="#">Геморрой</a></li>
+                                </ul>
+                                <a href="#" class="popular-questions__item__secs__item">Ортопедия</a>
+                                <a href="#" class="popular-questions__item__secs__item">Детская неврология</a>
+                            </div>
+                        </div>
+
+                        <div class="popular-questions__item">
+                            <a href="#" class="popular-questions__item__text">
+                                Добрый день! На медосмотре гинеколог сказала, что у меня геморрой, хотя меня ничего не беспокоит, только иногда бывает кровь
+                                после туалета, совсем немного. Скажите, пожалуйста, может ли такой геморрой пройти сам по
+                                себе?
+                            </a>
+                            <div class="popular-questions__item__date">10.01.2014</div>
+                            <div class="popular-questions__item__tags">
+                                <a href="#">проктолог</a>
+                                <a href="#">геморрой</a>
+                                <a href="#">кровь после туалера</a>
+                            </div>
+                            <div class="popular-questions__item__secs d-flex flex-column align-items-start">
+                                Разделы:
+                                <ul class="popular-questions__item__secs__item breadcrumbs">
+                                    <li><a href="#">Проктология</a></li>
+                                    <li><a href="#">Геморрой</a></li>
+                                </ul>
+                                <a href="#" class="popular-questions__item__secs__item">Ортопедия</a>
+                                <a href="#" class="popular-questions__item__secs__item">Детская неврология</a>
+                            </div>
+                        </div>
+
+                        <div class="popular-questions__item">
+                            <a href="#" class="popular-questions__item__text">
+                                Добрый день! На медосмотре гинеколог сказала, что у меня геморрой, хотя меня ничего не беспокоит, только иногда бывает кровь
+                                после туалета, совсем немного. Скажите, пожалуйста, может ли такой геморрой пройти сам по
+                                себе?
+                            </a>
+                            <div class="popular-questions__item__date">10.01.2014</div>
+                            <div class="popular-questions__item__tags">
+                                <a href="#">проктолог</a>
+                                <a href="#">геморрой</a>
+                                <a href="#">кровь после туалера</a>
+                            </div>
+                            <div class="popular-questions__item__secs d-flex flex-column align-items-start">
+                                Разделы:
+                                <ul class="popular-questions__item__secs__item breadcrumbs">
+                                    <li><a href="#">Проктология</a></li>
+                                    <li><a href="#">Геморрой</a></li>
+                                </ul>
+                                <a href="#" class="popular-questions__item__secs__item">Ортопедия</a>
+                                <a href="#" class="popular-questions__item__secs__item">Детская неврология</a>
+                            </div>
+                        </div>
+
+                        <div class="pagination d-flex">
+                            <button class="pagination__item pagination__start-btn">В начало</button>
+
+                            <a href="#" class="pagination__item pagination__page-number-btn">&lt;</a>
+                            <a href="#" class="pagination__item pagination__page-number-btn">1</a>
+                            <a href="#" class="pagination__item pagination__page-number-btn active">2</a>
+                            <a href="#" class="pagination__item pagination__page-number-btn">3</a>
+                            <a href="#" class="pagination__item pagination__page-number-btn">></a>
+
+                            <button class="pagination__item pagination__end-btn">В конец</button>
+                        </div>
+
+                    </section>
+
+                </div>
+
+                <div class="col-lg-3 sidebar sidebar-parent">
+                    <div id="content-menu-before"></div>
+                    <div class="page-menu" id="content-menu">
+                        <div class="sidebar__menu border-box">
+                            <div class="secs_questions border-box head">Вопросы по разделам</div>
+                            <a href="#">Проктолог</a>
+                            <a href="#">Уролог</a>
+                            <a href="#">Гинеколог</a>
+                            <a href="#">Невролог</a>
+                            <a href="#">Ортопед</a>
+                            <a href="#">Детский невролог</a>
+                            <a href="#" class="question-action-btn">Задать вопрос
+                                <div class="question-action-btn__icon"><i class="fas fa-comment-dots"></i></div>
+                            </a>
+                        </div>
+
+                        <a href="#" class="med-search-action-btn">Найти врача</a>
+
+                        <form class="tag-search">
+                            <input type="text" placeholder="Найти вопрос по тегам" class="input">
+                            <button class="search-btn"><i class="fas fa-search"></i></button>
+                        </form>
+                        <div class="open-menu-link"><i class="fa fa-bars" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3 col-sm-6">
+                    <img src="img/logo.png" alt="Медицинский центр «Алан Клиник»" class="main-footer__logo img-responsive">
+                    <div class="main-footer__copy">Copyright © Сеть медицинских центров «Алан Клиник» 2009-2018<br>Все права
+                        защищены.
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <ul class="main-footer__nav">
+                        <li>О здоровье</li>
+                        <li><a href="#">Вопросы и Ответы</a></li>
+                        <li><a href="#">Симптомы</a></li>
+                        <li><a href="#">Заболевания</a></li>
+                        <li><a href="#">Направления медицины</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <ul class="main-footer__nav">
+                        <li>Об «Алан Клиник»</li>
+                        <li><a href="#">Лицензии</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <ul class="main-footer__nav">
+                        <li>Обратиться к нам</li>
+                        <li><a href="#">Записаться на приём</a></li>
+                        <li><a href="#">Задать вопрос</a></li>
+                    </ul>
+                    <div class="dropdown dropdown-arrow main-footer__dropdown">
+                        <button class="dropdown__btn">Выбрать клинику</button>
+                        <div class="dropdown__items">
+                            <a href="#" class="active">Казань</a>
+                            <a href="#">Ижевск</a>
+                            <a href="#">Чебоксары</a>
+                        </div>
+                    </div>
+                    <div class="dropdown main-footer__dropdown">
+                        <button class="dropdown__btn">Поделиться страницей</button>
+                        <div class="dropdown__items share">
+                            <a href="#" class="facebook-bg"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="vk-bg"><i class="fab fa-vk"></i></a>
+                            <a href="#" class="insta-bg"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="twitter-bg"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="google-plus-bg"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="#" class="odnoklassniki-bg"><i class="fab fa-odnoklassniki"></i></a>
+                        </div>
+                    </div>
+                    <div class="main-footer__social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-odnoklassniki"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="main-footer__desc">
+                Внимание! Информация, размещённая на данном сайте, ни в коем случае не должна использоваться читателями для самостоятельной
+                постановки диагноза или самолечения! Информация на сайте размещена исключительно в целях исполнения обязанностей,
+                предусмотренных Федеральным законом «О защите прав потребителя» и не является рекламой. Правовая информация.
+                Любое использование (копирование) информации с данного сайта возможно только с разрешения правообладателя,
+                полученного в письменном виде.
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="footer-warning">
+        <div class="container">
+            Имеются противопоказания, необходима консультация специалиста
+        </div>
+    </div>
+
+    <!-- <script src="libs/jquery/dist/jquery.min.js"></script>
+<script src="libs/slick-1.8.1/slick/slick.min.js"></script>
+<script src="js/common.js"></script> -->
+
+    <script src="js/all.js"></script>
+
+</body>
+
+</html>
