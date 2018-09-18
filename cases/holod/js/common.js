@@ -47,4 +47,8 @@ $(document).ready(function () {
         $(".answers-tab_item").hide().eq($(this).index()).fadeIn()
     }).eq(0).addClass("active");
 
+    $('.feedback-form-popup-btn').magnificPopup({
+        type:'inline'
+    });
+
 });

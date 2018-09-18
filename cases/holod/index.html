@@ -41,7 +41,7 @@
         с 9.00 до 21.00
       </div>
 
-      <a href="#" class="topbar__btn_red d-none d-md-block">Вызов мастера</a>
+      <a href="#feedback-form-popup" class="topbar__btn_red d-none d-md-block feedback-form-popup-btn">Вызов мастера</a>
 
       <div class="topbar__mobile-menu-burger d-xl-none">
         <div></div>
@@ -62,21 +62,21 @@
             <div class="flex-grow-1 d-flex align-items-center text-center">
               <h1>Ремонт холодильного торгового оборудования</h1>
             </div>
-            <a href="#" class="header-blocks__item__btn">Вызов мастера</a>
+            <a href="#feedback-form-popup" class="header-blocks__item__btn feedback-form-popup-btn">Вызов мастера</a>
           </div>
 
           <div class="col-md-4 header-blocks__item d-flex flex-column align-items-center bg-2">
             <div class="flex-grow-1 d-flex align-items-center text-center">
               <h1>Ремонт холодильников на дому</h1>
             </div>
-            <a href="#" class="header-blocks__item__btn">Вызов мастера</a>
+            <a href="#feedback-form-popup" class="header-blocks__item__btn feedback-form-popup-btn">Вызов мастера</a>
           </div>
 
           <div class="col-md-4 header-blocks__item d-flex flex-column align-items-center bg-3">
             <div class="flex-grow-1 d-flex align-items-center text-center">
               <h1>Ремонт промышленных холодильников</h1>
             </div>
-            <a href="#" class="header-blocks__item__btn">Вызов мастера</a>
+            <a href="#feedback-form-popup" class="header-blocks__item__btn feedback-form-popup-btn">Вызов мастера</a>
           </div>
 
         </div>
@@ -691,11 +691,19 @@
       </div>
     </footer>
 
+    <form id="feedback-form-popup" class="white-popup mfp-hide d-flex flex-column">
+      <input type="text" placeholder="Ваше имя" required class="input">
+      <input type="text" placeholder="Ваш телефон" required class="input">
+      <button class="button">Отправить</button>
+    </form>
+
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
   <script src="libs/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="libs/magnific-popup/dist/magnific-popup.css">
+  <script src="libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
   <script src="js/common.js"></script>
 
 </body>
